@@ -1,2 +1,2 @@
 # WebPlayground
-Learning how to do web development
+My personal playground for figuring out how to do web devleopment
