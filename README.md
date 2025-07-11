@@ -1,2 +1,5 @@
 # WebPlayground
-My personal playground for figuring out how to do web devleopment
+My personal playground for learning how to make websites.
+
+Frontend practice
+- Social media card (HTML5/CSS only)
