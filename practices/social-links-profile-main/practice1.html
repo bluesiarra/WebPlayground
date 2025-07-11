@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(0, 0%, 8%);
+      color: white;
+      font-family: "Inter", sans-serif;
+      height: 100%;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    #floating-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      background-color: hsl(0, 0%, 12%);
+      padding: 1.5em;
+      width: 320px;
+      height: 550px;
+      border-radius: 8px;
+    }
+
+    #name {
+      font-weight: 600;
+      margin: 0.25em;
+      font-size: 26px;
+    }
+
+    #loc {
+      font-weight: 700;
+      color: hsl(75, 94%, 57%);
+      margin-bottom: 2.5em;
+    }
+
+
+    #img-container {
+      display: flex;
+      align-items: center;
+      width: 80px;
+      height: 80px;
+      margin: 2em;
+      padding: 0;
+      border-radius: 50%;
+      overflow: hidden;
+      justify-content: center;
+    
+    }
+
+    #pfp-img {
+      width: 100%;
+      height: auto;
+    }
+    #socials {
+      list-style-type: none;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 1.5em 0;
+
+      width: 100%;
+    }
+    #socials li {
+      width: 100%;
+    }
+    .social-link {
+      display: block;
+      width: 100%;
+      margin: 0.25em 0;
+      padding: 1.0em;
+      background-color: hsl(0, 0%, 20%);
+      color: white;
+      border: none;
+      font-weight: 700;
+      border-radius: 8px;
+
+    }
+
+    .social-link:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+      cursor: pointer;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div id="floating-box">
+
+    <div id="img-container">
+      <img id='pfp-img' src="assets/images/avatar-jessica.jpeg">
+    </div>
+  <h1 id='name'>Jessica Randall</h1>
+  <span id='loc'>London, United Kingdom</span>
+  "Front-end developer and avid reader."
+
+  <ul id="socials">
+  <li><button class='social-link'>Github</button></li>
+  <li><button class='social-link'>Frontend Mentor</button></li>
+  <li><button class='social-link'>LinkedIn</button></li>
+  <li><button class='social-link'>Twitter</button></li>
+  <li><button class='social-link'>Instagram</button></li>
+
+  </ul>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
