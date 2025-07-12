@@ -16,7 +16,7 @@
          }
 
         .sidepadding {
-            padding-inline: 8em;
+            padding-inline: 16em;
             padding-block: 1.25em;
         }
         #navbar {
@@ -44,6 +44,36 @@
 
         #sec1 {
             background-color: #1f2937;
+            display: flex;
+            padding-block: 6em;
+        }
+
+        #sec1-left, #sec1-right {
+            flex: 1;
+            align-items: center;
+        }
+
+        #sec1-right {
+            display: flex;
+            background-color: gray;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #signup-button {
+            background-color: #3882F6;
+            color: white;
+            border: 1px solid #3882F6;
+            border-radius: 10px;
+            padding: 0.75em 2em;
+            font-weight: bold;            
+        }
+
+        #signup-button:hover {
+            color: #3882F6;
+            border: 1px solid #3882F6;
+            background-color: white;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -62,6 +92,10 @@
         <div id="sec1-left">
             <h1>This website is awesome</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis architecto quibusdam eum provident officia porro ratione beatae eveniet molestiae in delectus consequuntur magni labore, doloribus atque veritatis, explicabo cumque? Repudiandae?</p>
+            <button id="signup-button">Sign Up!</button>
+        </div>
+        <div id="sec1-right">
+            <p>This area is a placeholder for an image.</p>
         </div>
     </div> 
 </body>
